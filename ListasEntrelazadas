@@ -1,0 +1,46 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		node head= null;
+		var node = new node ();
+		node.name = name;
+		if (head !=null);
+		{
+		head.prev=node;
+		node.next=head;
+		}
+		head=node;
+	}
+}
+// buscar
+	while (head != null)
+	{
+	Console.WriteLine(current.data);
+	Current.next;
+	}
+// Modificar
+	var letra = Console.ReadLine();
+	var reemplazo = Console.ReadLine();
+		while (current != null)
+		if (current.data=letra)	
+		{
+			current.data=reemplazo
+		}
+	current=current.next;
+//Eliminar
+while (current != null)
+	if (current.data=letra)
+	{
+	current.prev.next=current.next;
+	if(current.next=null)
+	   {
+		current.prev=current.prev
+		}
+	current.nex.prev=current.prev;
+	break;
+	Current.next=null;
+	}
+	
